@@ -1,7 +1,7 @@
 FROM debian:jessie
 
-MAINTAINER "Dylan Lindgren" <dylan.lindgren@gmail.com>
+MAINTAINER "Andy" <mouyigang@gmail.com>
 
-RUN mkdir -p /data
-VOLUME ["/data"]
+RUN mkdir -p /www
+VOLUME ["/www"]
 CMD ["true"]
